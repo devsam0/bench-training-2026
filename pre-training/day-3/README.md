@@ -1,0 +1,2 @@
+I used a Class because it allows me to bundle the data together with the methods that can modify it.
+If I used only functions, I’d have to constantly pass the list of tasks back and forth as an argument, which feels hectic. By using a class, the TaskManager becomes a self-contained "manager" that knows exactly how to handle its own data.
