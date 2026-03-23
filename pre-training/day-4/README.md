@@ -1,0 +1,1 @@
+The hardest part was actually the lack of boilerplate. I kept waiting to write async/await or .then(), but Python’s requests library is synchronous. Handling the nested JSON structure of the Open-Meteo API was a good reminder to  print the raw response first always. Chaining the two APIs was a good exercise in data flow.
